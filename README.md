@@ -32,8 +32,9 @@ Capstone documentation (PDF)
 
 ## Quick Run (Optional)
 
-pip install -r code/requirements.txt  
-python code/app_cli.py  
+```bash
+pip install -r code/requirements.txt
+python code/app_cli.py
 python code/scenarios/run_all.py
 
 ---
