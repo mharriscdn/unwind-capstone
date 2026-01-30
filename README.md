@@ -25,7 +25,7 @@ These PDFs are the authoritative explanation of the project.
 
 pip install -r code/requirements.txt  
 python code/app_cli.py  
-python code/scenarios/run_all.py  
+python code/scenarios/run_all.py
 
 ## Notes
 
