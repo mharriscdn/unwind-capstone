@@ -8,18 +8,18 @@ This repository contains the implementation and evaluation artifacts for the MSS
 
 The full capstone documentation lives in /docs:
 
-- **docs/UNWIND_Capstone_README.pdf**  
+- docs/UNWIND_Capstone_README.pdf  
   Core concept, system rationale, and architectural overview.
 
-- **docs/UNWIND_Design_Testing.pdf**  
+- docs/UNWIND_Design_Testing.pdf  
   Scenario-based evaluation framework and testing methodology.
 
 These PDFs are the authoritative explanation of the project.
 
 ## Repository Structure
 
-- **/code** — Application code, scenarios, and tests  
-- **/docs** — Capstone documentation (PDF)
+- /code — Application code, scenarios, and tests  
+- /docs — Capstone documentation (PDF)
 
 ## Quick Run (Optional)
 
