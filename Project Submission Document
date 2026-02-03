@@ -1,0 +1,73 @@
+MSSE Capstone Project Submission
+Student Name: Michael Harris
+Program: Master of Science in Software Engineering (MSSE)
+Cohort: Class of 2026
+Student ID: Q160643471905991804
+Capstone Project Title:
+UNWIND — A Constraint-Based Conversational System for Interrupting Narrative Drift
+Project Overview
+UNWIND is a deterministic, constraint-based conversational system designed to prevent narrative drift by redirecting users from story-level engagement to direct sensation-level contact.
+Unlike adaptive or therapeutic chat systems, UNWIND deliberately limits flexibility. A state-driven interaction loop, pattern detection, and explicit safety gates are used to ensure the system does not reinforce narrative escalation, emotional rumination, or dependency.
+The project explores whether constraint, rather than personalization, can improve reliability and safety in human–AI interaction.
+Delivered Artifacts
+1. Source Code Repository
+GitHub (Public):
+https://github.com/mharriscdn/unwind-capstone
+Contents include:
+•	Deterministic state machine and controller logic
+•	Scenario-based testing framework
+•	Pattern classification and routing
+•	CLI interface used for evaluation
+A full project README is included in the repository.
+2. Product Management & User Stories
+Trello Board (Public):
+https://trello.com/invite/b/697cb34213c193e86abcb683/ATTIa47078ecb3de21504c16f3a3380336d6D294592B/unwind
+The board contains:
+•	Initial user stories authored by the Product Owner
+•	Sprint-based organization
+•	Completed, in-scope, and explicitly rejected features
+•	Clear alignment between stories and implemented system behavior
+A formatted Word version of the user stories is also provided.
+3. Design & Testing Documentation
+UNWIND – Design & Testing Document:
+https://docs.google.com/document/d/1y6G5XQjf4qjqh7Sz20kr_cDgi4sEtmbI/edit
+This document includes:
+•	System architecture overview
+•	Interaction flow and control logic
+•	Scenario-based testing methodology
+•	Rationale for constraint-driven design choices
+•	Safety considerations and scope boundaries
+4. Primary Capstone Documentation
+UNWIND – Capstone README (Concept & Architecture):
+https://docs.google.com/document/d/1JhJ-GYTMrmc_mtC8d6jWZqhpjTPN3F09/edit
+This document serves as the authoritative explanation of:
+•	The problem being addressed
+•	The design philosophy
+•	Architectural decisions
+•	Evaluation approach
+5. Application Deployment (Demonstration Instance)
+Live Web Application:
+•	https://clearseeing.ca/app/
+•	https://697ba10fead5961054434381--astonishing-gecko-a125ee.netlify.app/
+This deployment demonstrates the interaction model in a browser-based interface.
+The web version reflects the same constraint logic as the CLI system.
+6. Code Backup (Redundancy)
+Google Drive – Source Code Backup:
+https://drive.google.com/drive/folders/16s3i9YDeSroFITvpSzkm6u707GYY0sxE
+Provided as a secondary access method in case of repository access issues.
+7. Demo Recording
+Demo Video:
+Youtube Link (https://youtu.be/SmtnB6zSoi4)
+The demo will walk through:
+•	System entry and safety gate
+•	Narrative detection and redirection
+•	Mirror Mode interaction loop
+•	Scenario-based behavior
+•	Explicit non-goals and constraints
+Notes for Reviewers
+•	This system is intentionally non-adaptive.
+•	It is not a general-purpose chatbot.
+•	It is not a therapeutic or coaching system.
+•	Features such as adaptive LLM responses and therapeutic guidance were explicitly scoped out and documented as such.
+The focus of this capstone is interaction integrity, safety, and constraint-based control, not user engagement optimization.
+
