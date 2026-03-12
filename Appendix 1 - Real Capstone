@@ -1,0 +1,89 @@
+Appendix 1 - Real Capstone
+The capstone I submitted was the assignment.
+What followed changed me from student to leader.
+After submitting the Capstone, I kept building. Not because I had to. Because I wanted to.
+The original Unwind implementation was mechanical Python. It was deterministic. If I defined the rules correctly, the system behaved. That felt safe.
+But I built this tool to work with people, not machines.
+And that exposed a tension I didn’t see at first:
+You can build something mechanically pure that no one wants to use because it has zero attunement.
+Or you can build something deeply attuned that slowly drifts away from its original intent.
+The intent of this tool is not to feed story. It’s to interrupt story and bring someone back to what is actually here.
+Mechanical purity gives you structure.
+Attunement gives you life.
+Getting both at once is hard.
+When I put an LLM inside it, everything shifted.
+The model didn’t break. It optimized. It collapsed stages. It moved toward resolution faster than I wanted. It sounded more human — but it cut tension prematurely.
+We gained attunement — but we were losing purity.
+My instinct was to add more rules.
+That didn’t work.
+The more rules I added, the heavier and more brittle the system became. The model still optimized around them. That’s when I realized something important:
+AI was not going to solve the design problem for me.
+It would amplify whatever direction I pointed it in.
+It didn’t give me the insight to turn rules into goals.
+It didn’t suggest separating structure from improvisation.
+It didn’t tell me the finish line was wrong.
+Those insights came from sitting with the problem long enough.
+Eventually it became clear:
+You don’t control an LLM with more rules.
+You design around its optimization behavior.
+So instead of forcing compliance, I reframed the architecture.
+Phases became structured method steps.
+The backend enforces sequence integrity — no jumping from Phase 1 to Phase 3.
+But inside each phase, the LLM has freedom.
+Like a skilled salesperson: there are stages — you don’t go straight to the bedroom. But within each stage, you improvise. The user should never feel like the model is reading from a script.
+Structure without rigidity.
+Improvisation without drift.
+The model can suggest advancement, but the system decides what prompt it is allowed to see. No skipped modules are even visible.
+That separation — structure enforced by the system, improvisation handled by the model — changed everything.
+The same pattern repeated with measurement.
+At one point I asked: how do we know if a session worked? Letting the model declare success felt wrong. What if the user felt clearer but the model didn’t label it correctly?
+AI didn’t give me the answer.
+The answer was obvious once I stopped asking it.
+Ask the user.
+Measure charge at the beginning. Measure it at the end. Let the backend route based on change in charge. The model does not get to declare success.
+Ownership became clear.
+Economics forced another breakthrough.
+The prompt grew to 25 pages. I ran the numbers. Cost per session. Required margin. Would a user pay that? Suddenly modularization wasn’t philosophical — it was financial.
+We split the prompt into phase modules. Loaded only what was needed. Economics improved architecture.
+AI didn’t suggest that.
+Math did.
+Then there was the Replit moment.
+AI initially insisted I would need to build everything from scratch. Estimated 150 hours. High complexity. High risk.
+I pushed back. I researched Replit. I demonstrated what it could scaffold. The estimate dropped dramatically.
+That wasn’t AI insight.
+That was leadership.
+Later, when building the risky 20% value-add components, AI warned against using agents for complex logic. That’s when branching became real. Freeze the stable 80% infrastructure — auth, database, payments. Break the remaining work into chunks. Build them in branches. If an agent fails, revert. No risk to the core.
+Branches stopped being theory from MSSE.
+They became lived risk mitigation.
+Over and over, I saw the same pattern:
+AI does not feel misalignment.
+AI does not sit in ambiguity.
+AI does not sense when something is slightly off.
+AI does not hold a vision.
+It generates.
+Working with AI is not just being a contractor. It’s being the architect and the business owner.
+The trades build from drawings.
+The contractor coordinates.
+But someone has to hold the vision of what is being built — and why.
+That part cannot be outsourced.
+The real insights didn’t come from asking better prompts.
+They came from sitting with the problem long enough that the right constraints emerged.
+Not quickly. Not efficiently.
+But because I stayed with it.
+Through this process I gained something more important than a working app.
+I gained confidence to lead.
+To push back when something feels wrong.
+To simplify instead of escalate.
+To measure instead of speculate.
+To let economics shape architecture.
+To branch and experiment without fear.
+To step into the unknown and trust I would find the structure.
+The mechanical version tried to enforce depth.
+The LLM version forced me to understand depth.
+That difference matters.
+This became my real capstone.
+Not because of the grade.
+Because I now understand that building with AI is not about control.
+It is about constraint, judgment, economics, patience, and leadership.
+And that only comes from staying with the problem yourself.
+APP on Replit isn’t built yet here is the APP that works fine with just a prompt that I have used for user tests: https://n3uyixscnzorxez9l3baku.streamlit.app/
